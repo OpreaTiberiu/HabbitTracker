@@ -18,7 +18,7 @@ def create_account():
         "notMinor": "yes"
     }
 
-    response = requests.post(url=uri, json=params)
+    response = requests.post(url=URI, json=params)
     print(response.text)
 
 
